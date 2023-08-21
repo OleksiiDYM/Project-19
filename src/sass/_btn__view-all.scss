@@ -1,0 +1,24 @@
+.btn__view-all {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+
+  padding: 16px 48px;
+
+  background: #ffffff;
+  border-radius: 16px;
+  color: #01383a;
+
+  cursor: pointer;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5),
+      0px 4px 10px rgba(134, 229, 67, 0.1);
+  }
+
+  @include tablet {
+    font-size: 28px;
+  }
+}
